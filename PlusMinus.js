@@ -1,6 +1,7 @@
 function plusMinus(arr) {
     // Write your code here
     let size = arr.length;
+    
     let positiveCount = 0;
     let negativeCount = 0;
     let zeroCount = 0;

@@ -15,5 +15,5 @@ function plusMinus(arr) {
         }
     }
     
-    console.log(`${positiveCount / size}\n${negativeCount / size}\n${zeroCount / size}`)
+    console.log(`${positiveCount / size}\n${negativeCount / size}\n${zeroCount / size}`);
 }

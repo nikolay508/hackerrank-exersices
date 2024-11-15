@@ -10,8 +10,8 @@ function timeConversion(s) {
         hour -= 12;
         hour = `0${hour}`;
     }else if(timeFrame === 'PM' && hour < 12){
-        hour += 12
+        hour += 12;
     }
     
-    return `${hour}:${min}:${sec}`
+    return `${hour}:${min}:${sec}`;
 }

@@ -15,5 +15,5 @@ function breakingRecords(scores) {
         }
     }
     
-    return [maxCount, minCount]
+    return [maxCount, minCount];
 }

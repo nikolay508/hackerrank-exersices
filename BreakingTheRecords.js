@@ -15,7 +15,5 @@ function breakingRecords(scores) {
         }
     }
     
-    let result = [maxCount, minCount]
-    return(result)
-    
+    return [maxCount, minCount]
 }

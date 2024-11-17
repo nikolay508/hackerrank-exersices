@@ -7,5 +7,5 @@ function matchingStrings(strings, queries) {
         finalArr.push(filtered.length)
     }
     
-    return finalArr
+    return finalArr;
 }

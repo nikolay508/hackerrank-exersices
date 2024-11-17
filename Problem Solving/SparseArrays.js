@@ -4,7 +4,7 @@ function matchingStrings(strings, queries) {
     
     for(let query of queries){
         const filtered = strings.filter(str => query === str);
-        finalArr.push(filtered.length)
+        finalArr.push(filtered.length);
     }
     
     return finalArr;

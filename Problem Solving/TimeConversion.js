@@ -15,5 +15,5 @@ function timeConversion(s) {
         hour += 12;
     }
     
-    return `${hour}:${min}:${sec}`
+    return `${hour}:${min}:${sec}`;
 }

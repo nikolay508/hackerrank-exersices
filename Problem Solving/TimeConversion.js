@@ -1,7 +1,6 @@
 function timeConversion(s) {
     // Write your code here
     let [hour, min, sec] = s.split(':');
-   
     
     let timeFrame = sec.slice(-2);
     sec = sec.slice(0, -2);

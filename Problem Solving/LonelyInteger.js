@@ -5,5 +5,6 @@ function lonelyinteger(a) {
     for (let num of a) {
         result ^= num; // XOR each number with the result
     }
+    
     return result;
 }

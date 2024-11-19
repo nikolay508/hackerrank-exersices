@@ -7,6 +7,7 @@ function timeConversion(s) {
     if(timeFrame === 'AM' && hour >= 12){
         hour = Number(hour);
         hour -= 12;
+        
         hour = `0${hour}`;
     }else if(timeFrame === 'PM' && hour < 12){
         hour = Number(hour);

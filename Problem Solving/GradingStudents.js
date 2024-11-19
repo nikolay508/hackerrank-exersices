@@ -1,7 +1,6 @@
 function gradingStudents(grades) {
     // Write your code here
     let finalGrade = [];
-    
     for(let each of grades){     
         let closestBy5 = Math.ceil(each / 5) * 5;
          

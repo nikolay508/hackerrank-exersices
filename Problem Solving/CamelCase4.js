@@ -7,14 +7,12 @@ function processData(input) {
         let [operation, symboll, word] = each.split(';');
         
         if(operation === 'S'){
-            
             if(symboll === 'M'){
                 word = word.slice(0 ,-2);
             }
             
             word = word.split(/(?=[A-Z])/).map(w => w.toLowerCase()).join(' ');
             finalArr.push(word);
-            
         }else if(operation === 'C'){
             word = word.split(' ')
             .map((word, index) => 

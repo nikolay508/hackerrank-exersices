@@ -7,6 +7,7 @@ function processData(input) {
         let [operation, symboll, word] = each.split(';');
         
         if(operation === 'S'){
+            
             if(symboll === 'M'){
                 word = word.slice(0 ,-2);
             }

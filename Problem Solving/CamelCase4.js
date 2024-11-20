@@ -14,6 +14,7 @@ function processData(input) {
             
             word = word.split(/(?=[A-Z])/).map(w => w.toLowerCase()).join(' ');
             finalArr.push(word);
+            
         }else if(operation === 'C'){
             word = word.split(' ')
             .map((word, index) => 

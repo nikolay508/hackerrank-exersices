@@ -2,6 +2,7 @@ function breakingRecords(scores) {
     // Write your code here
     let minScore = scores[0];
     let maxScore = scores[0];
+    
     let minCount = 0;
     let maxCount = 0;
     
